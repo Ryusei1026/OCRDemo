@@ -9,19 +9,30 @@
 /* Begin PBXBuildFile section */
 		1B26E88F22BE76730065CD46 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B26E88E22BE76730065CD46 /* AppDelegate.swift */; };
 		1B26E89122BE76730065CD46 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B26E89022BE76730065CD46 /* ViewController.swift */; };
-		1B26E89422BE76730065CD46 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B26E89222BE76730065CD46 /* Main.storyboard */; };
 		1B26E89622BE76760065CD46 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1B26E89522BE76760065CD46 /* Assets.xcassets */; };
 		1B26E89922BE76760065CD46 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B26E89722BE76760065CD46 /* LaunchScreen.storyboard */; };
+		1B26E8AF22C2FF060065CD46 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B26E8AE22C2FF060065CD46 /* Alamofire.framework */; };
+		1B26E8B122C2FF170065CD46 /* SwiftyJSON.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B26E8B022C2FF170065CD46 /* SwiftyJSON.framework */; };
+		1B26E8B422C465D90065CD46 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1B26E8B322C465D90065CD46 /* ViewController.xib */; };
+		1B26E8B722C669FD0065CD46 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B26E8B622C669FD0065CD46 /* Default-568h@2x.png */; };
+		32E116A0FA446C9E12038896 /* libPods-OCRSwift.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9389F2E706F32A2983A177DF /* libPods-OCRSwift.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		1B26E88B22BE76730065CD46 /* OCRSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OCRSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1B26E88E22BE76730065CD46 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1B26E89022BE76730065CD46 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		1B26E89322BE76730065CD46 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1B26E89522BE76760065CD46 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1B26E89822BE76760065CD46 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1B26E89A22BE76760065CD46 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1B26E8AE22C2FF060065CD46 /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = Carthage/Build/iOS/Alamofire.framework; sourceTree = "<group>"; };
+		1B26E8B022C2FF170065CD46 /* SwiftyJSON.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftyJSON.framework; path = Carthage/Build/iOS/SwiftyJSON.framework; sourceTree = "<group>"; };
+		1B26E8B322C465D90065CD46 /* ViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ViewController.xib; sourceTree = "<group>"; };
+		1B26E8B622C669FD0065CD46 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		1B26E8B822C66A320065CD46 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = /Users/ryusei/swift/OCRSwift/OCRSwift/Assets.xcassets; sourceTree = "<absolute>"; };
+		9389F2E706F32A2983A177DF /* libPods-OCRSwift.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-OCRSwift.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E3772FE623DCFC1C839D1931 /* Pods-OCRSwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OCRSwift.release.xcconfig"; path = "Target Support Files/Pods-OCRSwift/Pods-OCRSwift.release.xcconfig"; sourceTree = "<group>"; };
+		F41165BBFB7D6A791A89DBC9 /* Pods-OCRSwift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OCRSwift.debug.xcconfig"; path = "Target Support Files/Pods-OCRSwift/Pods-OCRSwift.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +40,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1B26E8B122C2FF170065CD46 /* SwiftyJSON.framework in Frameworks */,
+				1B26E8AF22C2FF060065CD46 /* Alamofire.framework in Frameworks */,
+				32E116A0FA446C9E12038896 /* libPods-OCRSwift.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -38,8 +52,11 @@
 		1B26E88222BE76730065CD46 = {
 			isa = PBXGroup;
 			children = (
+				1B26E8B622C669FD0065CD46 /* Default-568h@2x.png */,
 				1B26E88D22BE76730065CD46 /* OCRSwift */,
 				1B26E88C22BE76730065CD46 /* Products */,
+				1B26E8AD22C2FF060065CD46 /* Frameworks */,
+				CE2CCE6FED4A57BC4FAF28EE /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +71,42 @@
 		1B26E88D22BE76730065CD46 /* OCRSwift */ = {
 			isa = PBXGroup;
 			children = (
+				1B26E8B522C465F40065CD46 /* View */,
 				1B26E88E22BE76730065CD46 /* AppDelegate.swift */,
-				1B26E89022BE76730065CD46 /* ViewController.swift */,
-				1B26E89222BE76730065CD46 /* Main.storyboard */,
 				1B26E89522BE76760065CD46 /* Assets.xcassets */,
+				1B26E8B822C66A320065CD46 /* Assets.xcassets */,
 				1B26E89722BE76760065CD46 /* LaunchScreen.storyboard */,
 				1B26E89A22BE76760065CD46 /* Info.plist */,
 			);
 			path = OCRSwift;
+			sourceTree = "<group>";
+		};
+		1B26E8AD22C2FF060065CD46 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1B26E8B022C2FF170065CD46 /* SwiftyJSON.framework */,
+				1B26E8AE22C2FF060065CD46 /* Alamofire.framework */,
+				9389F2E706F32A2983A177DF /* libPods-OCRSwift.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1B26E8B522C465F40065CD46 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1B26E89022BE76730065CD46 /* ViewController.swift */,
+				1B26E8B322C465D90065CD46 /* ViewController.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		CE2CCE6FED4A57BC4FAF28EE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F41165BBFB7D6A791A89DBC9 /* Pods-OCRSwift.debug.xcconfig */,
+				E3772FE623DCFC1C839D1931 /* Pods-OCRSwift.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +116,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1B26E89D22BE76760065CD46 /* Build configuration list for PBXNativeTarget "OCRSwift" */;
 			buildPhases = (
+				E38062E1FB7955D277870B0C /* [CP] Check Pods Manifest.lock */,
 				1B26E88722BE76730065CD46 /* Sources */,
 				1B26E88822BE76730065CD46 /* Frameworks */,
 				1B26E88922BE76730065CD46 /* Resources */,
+				1B26E8B222C2FF4C0065CD46 /* ShellScript */,
+				8B1452E02A683031CCC78067 /* [CP] Embed Pods Frameworks */,
+				73B25483D3157F45F08BBFF9 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -123,12 +172,103 @@
 			buildActionMask = 2147483647;
 			files = (
 				1B26E89922BE76760065CD46 /* LaunchScreen.storyboard in Resources */,
+				1B26E8B722C669FD0065CD46 /* Default-568h@2x.png in Resources */,
+				1B26E8B422C465D90065CD46 /* ViewController.xib in Resources */,
 				1B26E89622BE76760065CD46 /* Assets.xcassets in Resources */,
-				1B26E89422BE76730065CD46 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1B26E8B222C2FF4C0065CD46 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/iOS/SwiftyJSON.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/Alamofire.framework",
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/carthage copy-frameworks\n";
+		};
+		73B25483D3157F45F08BBFF9 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-OCRSwift/Pods-OCRSwift-resources.sh",
+				"${PODS_ROOT}/TwitterKit/iOS/TwitterKit.framework/TwitterKitResources.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/TwitterKitResources.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-OCRSwift/Pods-OCRSwift-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8B1452E02A683031CCC78067 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-OCRSwift/Pods-OCRSwift-frameworks.sh",
+				"${PODS_ROOT}/TwitterCore/iOS/TwitterCore.framework",
+				"${PODS_ROOT}/TwitterKit/iOS/TwitterKit.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TwitterCore.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TwitterKit.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-OCRSwift/Pods-OCRSwift-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E38062E1FB7955D277870B0C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-OCRSwift-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		1B26E88722BE76730065CD46 /* Sources */ = {
@@ -143,14 +283,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		1B26E89222BE76730065CD46 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				1B26E89322BE76730065CD46 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		1B26E89722BE76760065CD46 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -280,10 +412,14 @@
 		};
 		1B26E89E22BE76760065CD46 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F41165BBFB7D6A791A89DBC9 /* Pods-OCRSwift.debug.xcconfig */;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7B7GXBVG2Q;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = OCRSwift/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -298,10 +434,14 @@
 		};
 		1B26E89F22BE76760065CD46 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E3772FE623DCFC1C839D1931 /* Pods-OCRSwift.release.xcconfig */;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7B7GXBVG2Q;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = OCRSwift/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

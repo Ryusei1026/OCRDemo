@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "group:OCRSwift.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:OCRSwift/View">
+   </FileRef>
+   <FileRef
+      location = "group:AppDelegate.swift">
+   </FileRef>
+   <FileRef
+      location = "group:/Users/ryusei/swift/OCRSwift/Info.plist">
+   </FileRef>
+   <FileRef
+      location = "group:/Users/ryusei/swift/OCRSwift/OCRSwift/Assets.xcassets">
+   </FileRef>
+   <FileRef
+      location = "group:Pods/Pods.xcodeproj">
+   </FileRef>
+</Workspace>
