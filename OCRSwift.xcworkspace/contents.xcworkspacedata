@@ -8,10 +8,10 @@
       location = "group:OCRSwift/View">
    </FileRef>
    <FileRef
-      location = "group:AppDelegate.swift">
+      location = "group:/Users/ryusei/swift/OCRSwift/Info.plist">
    </FileRef>
    <FileRef
-      location = "group:/Users/ryusei/swift/OCRSwift/Info.plist">
+      location = "group:AppDelegate.swift">
    </FileRef>
    <FileRef
       location = "group:/Users/ryusei/swift/OCRSwift/OCRSwift/Assets.xcassets">
